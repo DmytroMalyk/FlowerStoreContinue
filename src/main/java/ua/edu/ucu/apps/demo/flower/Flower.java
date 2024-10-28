@@ -12,6 +12,7 @@ public class Flower extends Item {
     @Getter
     private double sepalLength;
     private FlowerColor color;
+    @Getter
     private double price;
     @Getter
     private FlowerType flowerType;

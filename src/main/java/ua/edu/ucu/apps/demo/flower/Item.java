@@ -1,15 +1,15 @@
 package ua.edu.ucu.apps.demo.flower;
 
-public class Item {
-    private Integer price;
+public abstract class Item {
+    private double price;
     private String name;
 
     public String getName() {
         return name;
     }
 
-    public Integer getPrice() {
-        return price != null ? price : 0;
+    public double getPrice() {
+        return price;
     }
 
     public void setName(String name) {

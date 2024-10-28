@@ -12,7 +12,6 @@ import ua.edu.ucu.apps.demo.flowerStore.controller.FlowerController;
 @SpringBootApplication
 @RestController
 public class DemoApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
